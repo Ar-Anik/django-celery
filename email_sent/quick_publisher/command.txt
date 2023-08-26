@@ -1,0 +1,14 @@
+# pip install Django
+# celery -A quick_publisher.celery worker --loglevel=debug --concurrency=4
+# redis-server
+
+##### Start ######
+# python manage.py shell
+# from publish.tasks import send_view_count_report
+# send_view_count_report.delay()
+#### End ####
+
+# celery -A quick_publisher beat
+
+# tutorial Link
+# https://code.tutsplus.com/using-celery-with-django-for-background-task-processing--cms-28732t

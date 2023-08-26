@@ -1,0 +1,4 @@
+Django
+Celery==5.2.0b3
+redis
+celery[redis]
